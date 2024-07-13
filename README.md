@@ -36,6 +36,19 @@ Clone this repository to your local machine using Git:
 ```bash
   git clone https://your-repository-url.git
   cd three-card-poker-game
+```
+### 6. Run the Application
 
-asdf
+Navigate to the project directory and use the following command to run the application, ensuring to replace /path/to/javafx-sdk-22.0.1/lib with the actual path to your JavaFX lib directory:
+
+```bash
+java --module-path /path/to/javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics -cp target/ThreeCardPokerGame-0.0.1-SNAPSHOT.jar ThreeCardPokerGame
+```
+Features
+
+	•	Detailed game logic for a realistic poker experience
+	•	Dynamic imagery to enhance user interaction
+	•	Comprehensive UML planning to ensure robust architecture and design
+	•	Rigorous test design for reliable application performance
+
 
