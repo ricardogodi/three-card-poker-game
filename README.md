@@ -42,7 +42,7 @@ Clone this repository to your local machine using Git:
 Navigate to the project directory and use the following command to run the application, ensuring to replace /path/to/javafx-sdk-22.0.1/lib with the actual path to your JavaFX lib directory:
 
 ```bash
-java --module-path /Users/ricardogonzalez/javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics -jar target/ThreeCardPokerGame-0.0.1-SNAPSHOT.jar
+java --module-path /path/to/javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics -jar target/ThreeCardPokerGame-0.0.1-SNAPSHOT.jar
 ```
 Features
 
