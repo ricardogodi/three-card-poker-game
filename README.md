@@ -44,7 +44,15 @@ Navigate to the project directory and use the following command to run the appli
 ```bash
 java --module-path /path/to/javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics -jar target/ThreeCardPokerGame-0.0.1-SNAPSHOT.jar
 ```
-Features
+
+## Included Files
+
+The repository includes several important documents that support the development and understanding of the Three Card Poker Game:
+
+- **UML Diagram**: Provides a detailed visual representation of the application's architecture and object relationships.
+- **Gameplay Example**: Demonstrates a typical gameplay scenario to help users understand game dynamics and interactions.
+
+## Features
 
 	•	Detailed game logic for a realistic poker experience
 	•	Dynamic imagery to enhance user interaction
